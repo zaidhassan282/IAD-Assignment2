@@ -1,0 +1,92 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #ecf0f3;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.inputField {
+  width: 50px;
+  height: 50px;
+  border-radius: 0;
+  border-color: white;
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  outline: none;
+  background-color: inherit;
+}
+#matrix1 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: -13px -13px 25px #ffffff, 13px 13px 40px #cbced1;
+  padding: 5vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#matrix1Body,
+#matrix2Body {
+  border: 1px solid black;
+  display: inline-block;
+  padding-left: 3%;
+  padding-right: 1%;
+  border-top-color: #ecf0f3;
+  border-bottom-color: #ecf0f3;
+}
+#matrix2Container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  align-items: center;
+  margin-top: 5vh;
+  border-radius: 20px;
+  box-shadow: -13px -13px 25px #ffffff, 13px 13px 40px #cbced1;
+  padding: 5vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#addMatrixButton {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#matrix2 {
+  visibility: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+button {
+  width: 50%;
+  border-radius: 20px;
+  height: 5vh;
+  outline: none;
+  border: none;
+  margin: 1%;
+  box-shadow: -5px -5px 10px #ffffff, 5px 5px 5px #cbced1;
+  background-color: #ecf0f3;
+  color: black;
+}
+
+button:active {
+  box-shadow: inset -5px -5px 10px #ffffff, inset 5px 5px 5px #cbced1;
+  /* transition: 1000ms; */
+}
+
